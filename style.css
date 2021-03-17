@@ -1,0 +1,130 @@
+body{
+    font-size: 18px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+.contact1 {
+    width: 100%;
+    min-height: 100%;
+    padding: 15px;
+  
+    background: #009bff;
+    background: -webkit-linear-gradient(left, #74f9ff, #74f9ff);
+    background: -o-linear-gradient(left, #74f9ff, #74f9ff);
+    background: -moz-linear-gradient(left, #74f9ff, #74f9ff);
+    background: linear-gradient(left, #74f9ff, #74f9ff);
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact1 {
+    width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 90px 100px 125px 100px;
+  }
+
+.heading{
+    font-family: Montserrat-ExtraBold;
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#00e0ff;
+	background: #ecfcff;
+	border: 2px solid #74f9ff;
+	border-radius: 20px;
+}
+form {
+    text-align: center;
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 10px; 
+	padding: 30px;
+	background: #ecfcff;
+	border: 1px solid #74f9ff;
+}
+form p {
+	color: #ff003c;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #74f9ff;
+    border-radius: 10px;
+}
+
+.add_btn {
+	height: 39px;
+	background: #74f9ff;
+	color: 	#fff;
+	border: 2px #74f9ff;
+	border-radius: 10px; 
+	padding: 5px 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add_btn:hover {
+  background: #00c3ff;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #00c3ff;
+}
+
+th {
+	font-size: 19px;
+	color: #00e0ff;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #ecfcff;
+}
+
+.task {
+	text-align: center;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #ff003c;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
